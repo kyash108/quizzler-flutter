@@ -1,10 +1,10 @@
 class Question {
-  String questionTest;
+  String questionText;
   bool questionAnswer;
 
-  Question({String q, bool a}){
-    questionTest = q;
+  Question(String q, bool a) {
+    questionText = q;
     questionAnswer = a;
   }
-
 }
+Question newQuestion = Question('q',true);
